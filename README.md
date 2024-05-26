@@ -10,22 +10,33 @@
 ### 1. OpenLANE directory structure
 
 1. Open terminal and go to open_lane_working_dir.
-  ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/0ecc1132-3f60-48ee-96ae-2cebf85921e5)
+ ![Day1_1](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/808d653e-ff0c-4ab1-bde7-ce087d6e72b5)
+
+
   
 2. Check the PDKs.
-  ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/b7e9562c-2b53-4cb0-82fa-6feef94c0d02)
+![Day1_2](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/46d6b2dc-6532-4720-9e58-6743b92c3359)
+
+
 
    a. Skywater PDK (for workshop) has OS and OpenLANE and all the PDKs: timing, tech lef and cell lef.
-      ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/81d44b73-1505-4b11-82d0-5624b2281557)
-      ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/0bcbd5e8-f9c0-4aa1-a119-d9db04c224e6)
+    ![Day1_3](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/4abd5695-736b-44a5-ab64-fe98f2751d8e)
+    ![Day1_4](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/f42285c9-9348-4b74-91b0-e2b764881616)
+
       
    b. Open PDKs: mitigate commercial foundry with OS tools.
      
    c. sky130A (PDK variant) which is made compatible for OS.
-      ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/e4c1949a-83ff-454e-8ad7-0598e7f41f86)
-      ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/b27b7b61-d5dd-4a58-b396-1d4717b69fdc)
-      ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/76df72f2-ed58-4a58-a52a-b9bdae2596fb)
-      ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/21e93a53-4b0d-45b1-a2c7-ee19ddb5e816)
+![Day1_5](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/a974c7cb-2f36-4a79-879b-19eedf813950)
+![Day1_6](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/705dbba8-1177-4195-89fb-3765113475cd)
+![Day1_7](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/5fd63643-9fa0-4196-929c-bcdab123ae99)
+![Day1_8](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/2adae527-da8b-4d0a-a399-c20f828f2168)
+![Day1_9](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/eb15830b-4da5-458c-80fe-1ebea6796f96)
+
+
+
+
+
      
 3. Invoke the OpenLANE in the openlane directory.
      ```
