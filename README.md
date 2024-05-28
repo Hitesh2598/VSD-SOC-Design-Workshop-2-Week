@@ -70,15 +70,18 @@
 ### 3. Review files
 
 1. Inside the picrov32a design directory **runs** is created where the tool auto creates directory with current date-time.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/54c6473c-6478-47f4-b348-1398ce1f7ef0)
+![Day1_16](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/fe088a08-45ec-4293-837e-6143041ca813)
+
 
 2. **tmp** folder is where the temp files are created.
 
    a. merged.lef is created when using the prep of picorv32 design (merged.py - Has layers, wires, cell level lef info which uses rectangle to define size)
-   ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/b6945b26-5258-4d13-bf39-9bc647159f6f)
-   b. Check the merged.lef using `less merged.lef`
-   ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/6894f4ee-1611-48af-8570-ce1ed790bbb8)
+   ![Day1_17](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/d6daa995-da46-4927-9282-e520a8e43fff)
 
+
+   b. Check the merged.lef using `less merged.lef`
+  
+  ![Day1_18](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/f8cf496a-82fe-4a58-be91-5aa0e9ecfd3b)
 4. **results** folder has all the PnR level folders
 ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/026b048b-e2ae-49f5-adbf-befffb910130)
 
