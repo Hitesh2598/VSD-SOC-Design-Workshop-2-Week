@@ -44,23 +44,27 @@
      ./flow.tcl -interactive
      package require openlane 0.9
      ```
-     ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/9ac0491c-5054-458a-b53e-e126a750df00)
+     ![Day1_10](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/4e3a6674-fd27-4408-b294-a067055ced7a)
+
 
      
 ### 2. Design preparation 
 
 1.  Multiple designs are in OpenLANE. Go inside the picorv32a.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/ed2e9695-8e5b-4c8d-8737-19d73f56b655)
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/d322f6c6-399e-40dd-a98a-f7804fd397f2)
+![Day1_11](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/e466bf61-7cdf-4cc1-9bea-7a62567fbcc2)
+![Day1_13](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/d19ab74f-0469-48ad-8284-b95171b2a2cc)
+
 
 2. Check the config.tcl file which will be used for the initial picorv32a design for new runs as base file.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/cb2445d6-458e-45d4-a668-c6dc8cfe3f15)
+![Day1_14](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/6794d2d7-579d-40ca-b92a-5494e3c8776a)
+
 
 3. Check the standard cell tcl.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/84991b4c-b0f4-423f-a81c-6bc66515dbe5)
+![Day1_15](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/8e9f5b68-567a-4f48-b437-0288cb52727f)
+
 
 4. Now design step is created using `prep -design picorv32a`. Merging the cell and tech lefs into one.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/5a10a366-98a6-4edb-854b-ce1009d1b4dd)
+![Day1_12](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/4b2011a4-b00f-400f-9e83-73a758e2bf54)
 
 
 ### 3. Review files
