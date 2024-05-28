@@ -113,17 +113,21 @@
 ### 5. Steps to characterize synthesis results
 
 1. After `run_synthesis`, synthesis file gets created in the run directory. Check other synthesis files.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/617b7a68-2e15-4376-9cbc-524363df9d94)
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/a5240c91-65bd-4b96-bf84-ce05beb2e76b)
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/5141476b-b748-48d9-ad6c-6255a3e2d1a8)
+![Day1_25](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/ceeccece-f809-4e75-9a64-f453efba33e0)
+![Day1_26](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/ddf17923-09ac-44d0-9e05-10e991ca28c4)
 
-2. Check report for yosys_4.stat.rpt which is a statistical report. Use `less 1-yosys_4.stat.rpt`
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/014a6009-a952-4fdc-bdfe-84d16dcdd92f)
+3. Check report for yosys_4.stat.rpt which is a statistical report. Use `less 1-yosys_4.stat.rpt`
+![Day1_27](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/91852d11-3a3d-45f7-8ecb-36b322a8f2bf)
 
-3. Check report for opensta_timing.stat.rpt which has the STA timing reprots. Use `less 2-opensta.min_max.rpt`
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/01a1b9fc-3e8c-405b-9c1c-2e314dc7c51b)
 
-4. To calculate the flop ratio, open the 'yosys_4.stat.rpt'. Divide the value of sky130_fd_sc_hd__dfxtp_2 and Total number of cells.
+
+4. Check report for opensta_timing.stat.rpt which has the STA timing reprots. Use `less 2-opensta.min_max.rpt`
+![Day1_28](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/ea9eda92-23a9-4a3d-bde0-f5b647222a9c)
+
+![Day1_29](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/f06dc974-9609-4694-99c2-8f38a04c4284)
+
+
+5. To calculate the flop ratio, open the 'yosys_4.stat.rpt'. Divide the value of sky130_fd_sc_hd__dfxtp_2 and Total number of cells.
      (sky130_fd_sc_hd__dfxtp_2) / (Total number of cells) = 1613/14876 = 0.1084 = 10.84%
 
 
