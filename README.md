@@ -83,20 +83,26 @@
   
   ![Day1_18](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/f8cf496a-82fe-4a58-be91-5aa0e9ecfd3b)
 4. **results** folder has all the PnR level folders
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/026b048b-e2ae-49f5-adbf-befffb910130)
+![Day1_19](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/ca5b795b-f1da-4229-b847-17d658e87f47)
+
 
 5. **reports** folder has all the timing analysis in config and reports will be generated here.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/4d6e1df4-2475-40ff-9743-d10104c6c8e5)
+![Day1_20](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/9947ee7d-2533-4b0f-9ed0-a607fccd1ccc)
+
 
 6. **config.tcl** in the run directory has default parameters used for the run. OpenLANE allows to make changes on the run and we can update the config to run it again.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/fc630ead-2811-44a7-83e8-82efe8f40725)
+![Day1_21](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/9f0388c8-a6ef-43e1-a962-5b44288a8b96)
+
 
 7. **cmds.log** takes record of all the command used during the run.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/0e950f1c-8eaa-4390-b4c4-e241cfc59dd0)
+![Day1_22](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/a1ad6830-57d7-4423-917c-38532690cc4d)
+
 
 8. `run_synthesis` after the design preparation stage. Wait for some time to complete.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/0e261901-836b-4a4e-aff4-dcb10c672879)
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/7476b609-6911-4cc5-8fef-25dcf60f407c)
+![Day1_23](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/b8322679-f7ab-4c32-9530-b54cd2e5afa8)
+![Day1_24](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/9240e4c2-073d-4e95-ae3d-45585ddbc463)
+
+
 
 
 ### 4. OpenLANE project Git link
