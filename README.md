@@ -122,9 +122,9 @@
 
 
 4. Check report for opensta_timing.stat.rpt which has the STA timing reprots. Use `less 2-opensta.min_max.rpt`
-![Day1_28](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/ea9eda92-23a9-4a3d-bde0-f5b647222a9c)
+ ![Day1_28](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/ea9eda92-23a9-4a3d-bde0-f5b647222a9c)
 
-![Day1_29](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/f06dc974-9609-4694-99c2-8f38a04c4284)
+ ![Day1_29](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/f06dc974-9609-4694-99c2-8f38a04c4284)
 
 
 5. To calculate the flop ratio, open the 'yosys_4.stat.rpt'. Divide the value of sky130_fd_sc_hd__dfxtp_2 and Total number of cells.
