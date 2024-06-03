@@ -1,15 +1,7 @@
 
 ## DAY 3: Design library cell using Magic Layout and ngspice characterization
 
-### 1. IO placer
-
-1. As openlane is an iterative tool, variables can be updated to change as per requirement. Example, changing the IO spacing.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/424b27ba-60f3-4c18-abce-26ecc033e02a)
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/78ac31df-e77e-4a39-97a8-8beaff6ea292)
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/65d2872a-6709-47fa-b973-42a1019a26a0)
-
-
-### 2. GIT CLONE of "vsdstdcelldesign"
+### 1. GIT CLONE of "vsdstdcelldesign"
 
   1. First go to the directory of vsdstdcelldesign on github.
   2. Clone the github repo "https://github.com/nickson-jose/vsdstdcelldesign.git".
@@ -28,7 +20,7 @@
 
 
 
-### 3. MAGIC TOOL (VSDSTDCELLDESIGN)
+### 2. MAGIC TOOL (VSDSTDCELLDESIGN)
 
   1. Open MAGIC tool to see the standard cell design in the cloned directory location. Also the tkcon terminal for MAGIC will open.
 
@@ -77,7 +69,7 @@
 > For more information and working of MAGIC, go to "http://opencircuitdesign.com/magic/index.html"
 
 
-### 4. NGSPICE
+### 3. NGSPICE
 
   1. After the file is saved, invoke the .spice file in ngspice `ngspice sky130_inv.spice`. If ngspice not available, use `sudo apt install ngspice`.
      ![day3_15_ngspice](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/49355b41-9ffa-47c1-ab56-9b716c5db7bd)
@@ -90,7 +82,7 @@
 
 
 
-### 5. MAGIC TOOL (DRC)
+### 4. MAGIC TOOL (DRC)
 
 1. For tutorial and more details go to the [opencircuitdesign](http://opencircuitdesign.com/magic/index.html) website.
 2. For skywater pdks check [skywaterpdks](https://github.com/google/skywater-pdk)
