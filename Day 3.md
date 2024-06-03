@@ -16,14 +16,16 @@
 
   Command: `git clone https://github.com/nickson-jose/vsdstdcelldesign.git`
   
-  ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/2591669a-ab7b-47b0-a9a7-c12d938a9062)
+ ![Day3_git_clone](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/6d2a705e-7cd7-460c-a5c6-36ed2d14b358)
+
 
   4. After the cloning is completed, copy the tech file.
   
   Command: `cp sky130A.tech /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign/`
-  
-  ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/ef076efc-74cc-4bd1-8958-7110816d13e3)
-  ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/dbdad075-807a-4f08-bf76-a835f774d9f4)
+  ![Day3_copy_tech](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/f51dcc6e-5543-4c43-8987-4c57b41345f5)
+  ![day3_copy_list](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/899dfdfa-692a-484b-9854-2c5eb187aa74)
+
+
 
 
 ### 3. MAGIC TOOL (VSDSTDCELLDESIGN)
