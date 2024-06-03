@@ -1,30 +1,25 @@
 ## DAY 4: Pre-layout timing analysis and importance of good clock tree
 
 1. Go to the tracks.info file to check where the routing will happen in the metal layer.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/dab60563-7fc9-418e-b80f-be779e7f0786)
+![day4_1](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/f4c5a11d-21ab-4001-bc0d-7bf41afd6818)
+
 
 2. Update the grid in the MAGIC tool using the tckon terminal as per the tracks.info data.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/2acfb577-fd87-4d33-9d4a-6b6954a853e1)
+![Day4_2](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/c6dc452f-389d-4b77-a4ab-249eedf5fb28)
 
-3. Now to update the width of the standard cell. Should be odd multiple of x pitch.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/41eef897-e280-498b-ab5c-18e2fbb6839b)
+3. Before extracting LEF, save the cell as `save sky130_vsdinv.mag`
+![day4_3](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/4590a301-78a9-4096-9b49-3ad8368b67fe)
 
-4. Ports can be defined by selecting the port and then Edit >> Text..
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/9a745d78-7f3f-47e6-be71-8aa83c8f8fe8)
+4. Open the saved file and create the LEF using `lef write` in the tckon terminal.
+![day4_4_lef](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/41d3f23b-e916-4480-9fb5-fee6226ff446)
+![day4_5_ff](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/5e8920a4-553b-44b3-8a1e-ebe9a4c23797)
 
-5. Before extracting LEF, save the cell as `save sky130_vsdinv.mag`
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/ca93edd8-53e4-4dc3-acc1-817f575cb470)
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/f44b6453-a882-47e7-b431-971a438280f0)
+5. As the port A was enabled, it creates it as pin.
+![day4_6_lef_file](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/09bea3c4-9dc8-451a-a0b7-01033f587b9f)
 
-6. Open the saved file and create the LEF using `lef write` in the tckon terminal.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/a2fcfda2-c56f-47d3-a593-2ca178a6b95c)
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/3c13c73a-164a-4f82-8e1c-a5e6f33454ee)
 
-7. As the port A was enabled, it creates it as pin.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/50f10d6c-572d-41c4-b992-2ce64de7577d)
-
-8. Now this lef file will be moved in the src folder for the picorv32a to use.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/778b2c18-9c91-4105-b8b3-7321edfa01b9)
+6. Now this lef file will be moved in the src folder for the picorv32a to use.
+![day4_7_copy](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/362b738c-00eb-4522-9d60-affb614bb98c)
 
 
 ### 1. OPENLANE
