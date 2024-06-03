@@ -54,16 +54,21 @@
   9. To know the logic, it has to be extracted to SPICE in ngspice:
 
      a. In the vlsistdcelldesign directory, use `extract all`.
-      ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/ea0a5ebd-ca49-47c7-9264-e939f0ac2b80)
+        ![day3_9_eextract](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/1f9b96cb-b65a-40fc-b5c1-d309a5637d0b)
+
      
      b. Extracted file is created with .ext.
-      ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/206acbb3-32eb-456d-961a-90fdd484b4d6)
+         ![day3_10_file](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/f2e129f7-9c03-411e-a9b7-8908e138629e)
+
      
      c. To use in the **ngspice** tool: `ext2spice cthresh 0 rthresh 0`. Does parasitic extraction as well.
 
      d. To create .spice file : ext2spice
-      ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/51f06562-4ca8-486e-bfad-c01c49664d65)
-      ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/e1251cd7-141a-4f70-83ca-da223dad0062)
+         ![day3_11](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/7fc39f9e-b268-44ac-81b0-f6479afd666f)
+         ![day3_12_list](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/1d56b1e7-eb2c-4758-bf3a-b3ef3d827899)
+         ![day3_13_spice_file](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/339bc903-f494-4522-a1f3-e77c8ba4703e)
+
+   
         > In the .spice file:
         > Contains the details of the PMOS and NMOS and its connection. Update the .spice file as below which includes the pshort and nshort libs, scale, pulse input and transient analysis commands.
         > ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/643d6892-ac72-451f-ba65-7930ef5180fc)
