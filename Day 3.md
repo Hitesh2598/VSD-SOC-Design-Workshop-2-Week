@@ -89,33 +89,39 @@
 3. Get the Magic drc open pdk using for lab.
    ```
    wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
-   tar -xfz
+   tar xfz drc_tests.tgz
    cd drc_tests
    ls -lrth
    ```
-   ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/b5c83484-ecf7-431d-bd97-40a963aa40ce)
+  ![Day3_magic_lab](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/b8b08b4a-c60b-43d0-821e-e6acf3a137a9)
+
 
 4. File .magicrc helps for startup.
 5. Use `magic -d XR` to invoke magic.
 6. Open met3.mag file.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/39d67add-ff75-4e27-8395-f0e65eaa8ec5)
+![day3_magic_2](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/9c6839bf-9214-42bf-bc58-4816d755f3e5)
+
 
 7. In tckon, use `drc why`. Each item has its own name and has design rules in google skywater readme under the 'Design Rules' tab. Go to periphery rules for the metal 3.
 8. Now using left and then right mouse button create box. GO to the layer window and click on the met3 layer. Then in tckon type `cif see VIA2` It will create the masking for the via.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/a3fc8f9f-c3fd-4b02-99cd-a75105018d20)
+![day3_magic_5](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/a4f04008-0637-43c0-8429-0c70c424fddb)
+
 
 9. Now zoom into one via mask and create box as close as possible and type `snap int ` in tkcon.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/6113d36a-6fe7-49cc-b386-e284884407cc)
+![day3_magic_6](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/9ffb445d-80c6-4dd2-8ae1-ff60bc400cb9)
+
 
 10. Next type `box` in tkcon to find the distance.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/72f1a2e1-8e2f-4b5c-94a7-563bb08b99f5)
+![day3_magic_7](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/4a7549fa-4377-4a1e-b158-f742e36ae44d)
+
 
 11. Now load poly using `load poly` in tkcon.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/5e2bbb9e-de39-4e43-9c6e-bc7e7c397a2d)
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/046090e8-fc06-4a35-82ff-7fdeb27ae893)
+![day3_magic_8](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/1bc03d2c-a450-4cc1-b546-f71957af8978)
+
 
 12. Now update the poly.9 details in the sky130A.tech file as below and load it in Magic again. Type `drc check`.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/c6566801-2a8a-4f77-95eb-b10ae75852f3)
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/2bc25a0f-242c-4e86-b878-9060d6fea94c)
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/e9e12aa5-99e9-4fa2-9f6d-07a12335f27e)
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/7ab973a2-24ef-43be-9e10-7e15aaf0dfbb)
+
+![day3_magic_poly9](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/7c6859c8-88db-452f-ae79-54936271daa5)
+![day3_magic_poly9_2](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/c9da2ce8-553c-49f3-add1-1cba2b944467)
+![day3_magic_poly9_3](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/8d1e9363-18ba-4f1d-bc72-1e16cd0d00e4)
+![day3_magic_poly9_last](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/97a33495-59ec-42ca-9e52-f0659dde69e8)
