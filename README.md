@@ -155,7 +155,9 @@
 4. Now `run_placement` after the floorplan is completed.
 ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/df4776e9-c8e7-4399-b57d-f5866b8a7705)
 
+5. To check placement in Magic tool use  ` magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130/libs.tech/magic/sky130.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def & `
 
+![Day2_10_placement](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/29e4a4b3-87e7-4bc8-8475-2ad0f982a8e5)
 
 ## DAY 3: Design library cell using Magic Layout and ngspice characterization
 
