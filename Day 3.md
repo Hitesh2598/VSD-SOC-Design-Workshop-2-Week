@@ -44,7 +44,8 @@
   ![Day3_6](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/94c251d8-158b-4335-9094-4b26cdd7d53e)
 
   5. Using 's' 3x will select the whole connection layer where the mouse is pointed in the design.
-    6. Now in the tkcon terminal, after selecting any part of the design using 's', type `what`. PMOS and NMOS has been decribed the terminal.
+
+  6. Now in the tkcon terminal, after selecting any part of the design using 's', type `what`. PMOS and NMOS has been decribed the terminal.
    ![day3_7_nmos](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/7c3c53b4-c722-489d-9962-086821405d64)
    ![day3_8_pmos](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/71d98626-3aa2-4b77-aaa0-a3a0be71520e)
 
