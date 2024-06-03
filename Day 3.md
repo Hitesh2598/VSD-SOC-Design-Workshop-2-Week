@@ -71,19 +71,23 @@
    
         > In the .spice file:
         > Contains the details of the PMOS and NMOS and its connection. Update the .spice file as below which includes the pshort and nshort libs, scale, pulse input and transient analysis commands.
-        > ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/643d6892-ac72-451f-ba65-7930ef5180fc)
-        > If file not updated as above, then the below error could be shown for sub ckt
-        > ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/20fbaa5f-38a9-4b76-804a-379125349f67)
+        ![day3_14_modell](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/c5da8e0d-11d7-431a-af26-8525fa447792)
+
+       
 > For more information and working of MAGIC, go to "http://opencircuitdesign.com/magic/index.html"
 
 
 ### 4. NGSPICE
 
   1. After the file is saved, invoke the .spice file in ngspice `ngspice sky130_inv.spice`. If ngspice not available, use `sudo apt install ngspice`.
-     ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/ae7b999a-aa26-422c-bf94-22ab8a098e9d)
+     ![day3_15_ngspice](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/49355b41-9ffa-47c1-ab56-9b716c5db7bd)
+
   2. Plot the graph using `plot y vs time a`.
+    ![day3_17_plott](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/cbe1af40-4d7d-4863-9856-bd6c9b307d79)
+
   3. Calculate the cell rise and fall delays for PVT characteristics.
-     ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/10187b06-394c-4361-a434-f01b2929d053)
+    ![day3_16_plot](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/6f667280-0902-498e-bc0e-58ad2bb5c0cd)
+
 
 
 ### 5. MAGIC TOOL (DRC)
