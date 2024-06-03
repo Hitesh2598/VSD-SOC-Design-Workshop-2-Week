@@ -148,6 +148,9 @@
 ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/0bd39537-cd4b-41af-9b84-b3f444e2697b)
 
 3. To check the floorplan in Magic tool use `magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &'
+![Day2_7_floorplan](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/69d67888-19f8-4b40-90ec-23ad5b8cf960)
+![Day2_8_floorplann](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/7665481f-bd25-455c-b51d-dd68b7051a46)
+
 
 4. Now `run_placement` after the floorplan is completed.
 ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/df4776e9-c8e7-4399-b57d-f5866b8a7705)
