@@ -121,11 +121,15 @@
 
 
 5. To calculate the flop ratio, open the 'yosys_4.stat.rpt'. Divide the value of sky130_fd_sc_hd__dfxtp_2 and Total number of cells.
-      Chip module area: 147712.918400
-      Flop ratio = no of DFFs (D flip-flop)/Total no of cells. 
-      Total no of cells = 14876 
-      No of DFFs (count of sky130_fd_sc_hd__dfxtp_2) = 1613
+      
+Chip module area: 147712.918400
 
-     (sky130_fd_sc_hd__dfxtp_2) / (Total number of cells) = 1613/14876 = 0.1084 = 10.84%
+Flop ratio = no of DFFs (D flip-flop)/Total no of cells. 
+
+Total no of cells = 14876 
+
+No of DFFs (count of sky130_fd_sc_hd__dfxtp_2) = 1613
+
+(sky130_fd_sc_hd__dfxtp_2) / (Total number of cells) = 1613/14876 = 0.1084 = 10.84%
 
 
