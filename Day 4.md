@@ -63,7 +63,7 @@ add_lefs -src $lefs
 
 
 8. Run floorplan. Use `run_floorplan`
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/072845b4-b03b-4f0c-9df4-be0f1bca42c6)
+
 
   > If errors found for run_floorplan, follow the commands one by one:
   > ```
