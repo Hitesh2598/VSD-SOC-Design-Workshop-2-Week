@@ -83,30 +83,10 @@ add_lefs -src $lefs
 ### 2. TritonCTS
 
 1. Once placement is completed move on to CTS stage, check the README file in configuration directory for the variables. Run CTS `run_cts`.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/73260b0f-f4e2-43f4-9558-834abe596481)
+![day4_cts](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/ad4b3218-3fc1-44e6-a266-861ef1448c7f)
 
-2. In TCL, TCL proc - defination are made in flow and called during runs.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/d3a4d5fa-f197-445e-9c1c-30c38b1250b5)
+![day_ctsss](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/fd192b83-3003-425e-bb09-9e3c3248d69f)
 
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/b07cad66-663e-45c2-b914-5022cb6ffab2)
-  
-  > As per flow, synthesis in not part of the openroad scripts whereas others all are present.
-  > ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/6e08172d-6fcc-4c93-be6d-6edcccc91562)
-
-3.  Inside the or_cts.tcl, we can check the variables using `echo`.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/6c303434-8565-4193-bda3-da20845dc456)
-
-
-4. Inside the same or_cts.tcl file, clock_tree_synthesis where the **TritonCTS** engine is used and the control is passed to it.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/747733ea-067f-4cd0-94d3-bae1e239cf59)
-
-5. Check the clock buffers used.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/c02f28d0-a36e-43e5-a3a0-e263db1af7e6)
-
-  > Current drawback for TritonCTS - it cannot create optimized CTS for multiple corners.
-6. Compare the CTS_MAX_CAP from the tcl script and the typical lib.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/66668371-0075-4e2c-90f1-075c476aafd7)
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/3794131a-cb67-4eaf-a0e5-fddec107ec40)
 
 
 ### 3. OPENROAD
