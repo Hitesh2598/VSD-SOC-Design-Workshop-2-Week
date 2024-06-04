@@ -17,9 +17,9 @@
     ![Day1_4](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/f42285c9-9348-4b74-91b0-e2b764881616)
 
       
-   b. Open PDKs: mitigate commercial foundry with OS tools.
+   
      
-   c. sky130A (PDK variant) which is made compatible for OS.
+   b. sky130A (PDK variant) which is made compatible for OS.
 ![Day1_5](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/a974c7cb-2f36-4a79-879b-19eedf813950)
 ![Day1_6](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/705dbba8-1177-4195-89fb-3765113475cd)
 ![Day1_7](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/5fd63643-9fa0-4196-929c-bcdab123ae99)
