@@ -59,7 +59,8 @@ add_lefs -src $lefs
 ![day4_14_synth](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/31ff620b-a930-4daf-b860-a5220915d0f2)
 
 7.  Make modification in the flow.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/7c6d5fcc-f7aa-46a5-8654-caff17f57745)
+![day4_18_set](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/4b32e463-81c9-4b13-9e7a-e5456917fa93)
+
 
 8. Run floorplan. Use `run_floorplan`
 ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/072845b4-b03b-4f0c-9df4-be0f1bca42c6)
@@ -71,17 +72,10 @@ add_lefs -src $lefs
   > global_placement_or
   > tap_decap_or
   > run_placement
-  > run_cts
-    > ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/cd8580d4-a201-409d-a463-f0a0b788902a)
-  > gen_pdn
-    > ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/6f835a1f-16a1-4bc0-b512-ed2b2ab94a8d)
-  > run_routing
-    > ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/10f2d841-610d-4a99-ac63-8e89dc710dd5)
-    > ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/3fa662d3-d2f5-4438-98d3-e0b7c02c5f75)
-  > ```     
-  
+ 
 9. Now go to the placement location of the run and then read the lef and def in MAGIC. Zoom into the cells and find the 'vsdinv' cell and `expand` after using 's' on the cell.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/bdcdd921-2e04-44fa-9273-700d3cde4fbe)
+![day4_16_placement_1](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/fc6687fe-5995-4795-9259-d2e51e1d68e1)
+![day4_17_placement_layout](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/785981ef-e2b1-4357-b922-45188074c7b8)
 
 
 ### 2. OpenSTA (Engine integrated with Openlane)
