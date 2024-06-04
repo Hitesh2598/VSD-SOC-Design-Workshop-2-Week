@@ -25,13 +25,16 @@
 ### 1. OPENLANE
 
 1. To use new cell in synthesis, will check the lib files. The libs are different as per process corners. 
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/9b1b7726-13f3-441a-af2b-8201a87117d8)
+![day4_8](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/343f2d1c-18c1-4c57-b9d9-2039037140f7)
+
 
 2. Copy the libs to the src location.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/4721df9e-6520-4ef4-ac4b-6ab553153d46)
+![day4_9](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/8afe9449-3657-42ae-9525-0ed547f3801d)
+
 
 3. Modify config.tcl as following.
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/e9c2360e-3b25-4a7a-bfef-c1f4bfd4bb44)
+![day4_10_1](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/e93691db-ade5-4871-83f5-6c163af5f58e)
+
 
 4. Now using following commands start the OPENLANE tool.
 ```
@@ -39,20 +42,21 @@ docker
 ./flow.tcl -interactive
 package require openlane 0.9
 ```
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/6af3cf5b-48b7-427b-9f6e-d250d1405583)
+![day4_11](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/84e1c260-cefb-410d-9061-668021ea96b3)
+
 
 5. Now using `prep -design picorv32a -tag 09-08_16-0 overwrite` the updated config will be used. Then provide the following commands.
 ```
 set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
 add_lefs -src $lefs
 ```
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/f3dc80cb-8532-4ecf-85c9-c6b34e0cb7e1)
+![day4_13](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/1d94e70e-28d9-4d27-947f-2b08984c0814)
+
 
   > If error is show as below for the FASTEST and SLOWEST, update the LIB_MIN and LIB_MAX to LIB_FASTEST and LIB_SLOWEST simultaneously.
-  > ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/e10677f5-c484-4565-8376-3d22110c76d9)
-
+  
 6.  Run systhesis using `run_synthesis`
-![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/ea21fb90-e5ea-4d13-a718-b0746a444eb9)
+![day4_14_synth](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/31ff620b-a930-4daf-b860-a5220915d0f2)
 
 7.  Make modification in the flow.
 ![image](https://github.com/prachurjyaghy/Physical-Design-using-OpenLANE-SKY130/assets/48976708/7c6d5fcc-f7aa-46a5-8654-caff17f57745)
