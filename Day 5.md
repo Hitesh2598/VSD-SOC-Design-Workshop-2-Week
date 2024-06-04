@@ -18,4 +18,5 @@
 
 ![day5_5](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/bf9dba6d-b0dd-4288-b64f-d11d2fcf26b6)
 
+![day5_6](https://github.com/Hitesh2598/VSD-SOC-Design-Workshop-2-Week-/assets/108817818/cc81f4bf-5aeb-4cab-9f2b-5c57a5ca5038)
 
